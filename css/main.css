@@ -59,25 +59,10 @@ nav a{
   text-decoration: underline;
 }
 
-.billboard-wrap{
-	position: relative;
-}
-
-.billboard{
-	position: absolute;
-	bottom:30%;
-	color: white;
-	text-align:center;
-	width: 50%;
-	left: 50%;
-}
 
 h2{
 	text-align:center;
-	background-color: #ec5a6b;
-	color: white;
-	padding-top:0.5em;
-	padding-bottom: 0.5em;
+	color: black;
 	font-family: 'Raleway', sans-serif;
 	margin-right: 0em;
 	margin-left: 0em;
@@ -95,19 +80,13 @@ h3{
 	text-shadow: 2px 2px 6px black;
 	}
 
-.portrait{
-	width: 100%;
-	display:block;
+hr{
+	color: gray;
+	border: solid 1.5px
 }
 
 .unit{
 	margin:0 auto;
-	position: relative;
-	padding:1em;
-}
-
-.unit img{
-	border-radius:50%;
 }
 
 .box-port{
@@ -140,6 +119,10 @@ h3{
 	max-width: 2.3em;
 }
 
+.intro-p{
+	color: gray;
+	margin-top: 2em;
+}
 
 
 @media only screen and (min-width: 40em){
@@ -168,6 +151,10 @@ h3{
 		float:left;
 		width: 50%;
 	}
+
+	.intro-p{
+	padding-bottom: 2em;
+	}
 }
 
 
@@ -195,8 +182,7 @@ h3{
 	}
 
 	.intro-p{
-		color: gray;
-		margin-top: 2em;
+		margin-top: 0;
 	}
 
 	.email{
