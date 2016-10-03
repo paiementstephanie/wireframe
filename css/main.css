@@ -39,7 +39,8 @@ body{
 	margin: 0;
 	width: 100vw;
 	min-height: 10em;
-	padding-top: 1em;
+	padding-top: 7em;
+	padding-bottom: 7em;
 	padding-left: 1em;
 	padding-right: 1em;
 	background-image: url("http://placehold.it/1024x682");
