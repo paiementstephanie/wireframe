@@ -96,7 +96,8 @@ h3{
 
 hr{
 	color: gray;
-	border: solid 1.5px}
+	border: solid 1.5px
+	}
 
 .unit{
 	margin:0 auto;
@@ -201,6 +202,11 @@ hr{
 	.email{
 		margin-left: 1em;
 		margin-top:0em;
+	}
+
+	.content-wrap{
+	margin-right: 2em;
+	margin-left: 2em;
 	}
 }
 
