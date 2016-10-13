@@ -1,8 +1,8 @@
-@-moz-viewport { width: device-width; scale: 1;}
-@-ms-viewport { width: device-width; scale: 1;}
-@-o-viewport { width: device-width; scale: 1;}
-@-webkit-viewport { width: device-width; scale: 1;}
-@viewport { width: device-width; scale: 1;}
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
 html {
 	box-sizing: border-box;
@@ -19,22 +19,22 @@ html {
 	box-sizing: inherit;
 }
 
-h1{
+h1 {
 	text-align:center;
 	color: black;
-	font-family: 'Raleway', sans-serif;
-	margin-right: 0em;
-	margin-left: 0em;
-	margin-top: 0em;
+	font-family: "Raleway", sans-serif;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
 	margin-bottom: 1em;
 }
 
-body{
+body {
 	margin:0em;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
-.hero-banner{
+.hero-banner {
 	margin: 0;
 	width: 100vw;
 	min-height: 10em;
@@ -51,11 +51,11 @@ body{
 
 }
 
-nav ol li{
+nav ol li {
 	list-style-type: none;
 }
 
-nav a{
+nav a {
 	display:block;
 	padding:.3em;
 	text-decoration: none;
@@ -73,153 +73,152 @@ nav a{
 }
 
 
-h2, h3{
+h2, h3 {
 	text-align:center;
 	color: black;
 	font-family: 'Raleway', sans-serif;
-	margin-right: 0em;
-	margin-left: 0em;
-	margin-top: 0em;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
 	margin-bottom: 1em;
 }
 
-hr{
+hr {
 	color: gray;
-	border: solid 1.5px
+	border: solid 1.5px;
 	}
 
-.unit{
+.unit {
 	margin:0 auto;
 }
 
-.box-port{
+.box-port {
 	padding: .5em;
 	display: block;
 	width: 100%;
 }
 
-.contact{
+.contact {
 	clear:both;
 }
 
-.icons{
+.icons {
 	padding-right: 1em;
 	padding-bottom: 1em;
 	text-align:center;
 }
 
-.email{
+.email {
 	padding-left: 10px;
 	text-align: center;
 }
 
-.email a{
+.email a {
 	text-decoration:none;
 	color: gray;
 }
 
-.email-2 a{
+.email-2 a {
 	text-decoration: none;
 	color: black;
 }
 
-.email-2 a:hover{
+.email-2 a:hover {
 	color: black;
 	text-decoration: underline;
 }
 
-.prev-next a:hover{
+.prev-next a:hover {
 	text-decoration: underline;
 }
 
-.behance{
+.behance {
 	max-width: 2.3em;
 }
 
-.twitter{
+.twitter {
 	max-width: 2.3em;
 }
 
-.intro-p{
+.intro-p {
 	color: gray;
 	margin-top: 2em;
-	margin-bottom: 0em;
-	padding-bottom: 0em;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
-.cycle a{
+.cycle a {
 	text-decoration: none;
 	color: black;
 }
 
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 40em) {
 
-	html{
+	html {
 		font-size: 110%;
 		line-height: 1.4;
 	}
 
-	.box-port{
+	.box-port {
 		width: 50%;
 		float: left;
 		margin-bottom: 2em;
 	}
 
-	h2{
+	h2 {
 		margin-bottom: 1em;
 	}
 
-	.icons{
+	.icons {
 		float:right;
 		width:40%;
 	}
 
-	.email{
+	.email {
 		float:left;
 		width: 50%;
 		padding-bottom: 2em;
 		margin-bottom: 2em;
 	}
 
-	.intro-p{
+	.intro-p {
 	padding-bottom: 2em;
 	}
 }
 
 
+@media only screen and (min-width: 65em) {
 
-@media only screen and (min-width: 65em){
-
-	html{
+	html {
 		font-size: 135%;
 		line-height: 1.6;
 	}
 
-	h2{
+	h2 {
 		margin-bottom: 1em;
 	}
 
-	.box-port{
+	.box-port {
 		width: 25%;
 		float: left;
 		display: inline-block;
 		margin-bottom: 2em;
 	}
 
-	.portrait{
+	.portrait {
 		max-width: 50%;
 	}
 
-	.intro-p{
+	.intro-p {
 		margin-top: 0;
 	}
 
-	.email{
+	.email {
 		margin-left: 1em;
 		margin-top:0em;
 	}
 
-	.content-wrap{
+	.content-wrap {
 	margin-right: 2em;
 	margin-left: 2em;
 	}
@@ -244,38 +243,38 @@ hr{
 
 
 
-@media print{
+@media print {
 
-	main a::after{
-		content: " (" attr(href) ")" ;
+	main a::after {
+		content: " (" attr(href) ")";
 		text-decoration: none;
 		color: gray;
 	}
 
-	.business-card{
+	.business-card {
 		width: 336px;
 		height: 192px;
 		border: .10em dashed #000;
 		padding: 1em;
 	}
 
-	.portrait{
+	.portrait {
 		max-width: 50%;
-		margin: 0em;
+		margin: 0;
 		position: absolute;
 		bottom: -70px;
 	}
 
-	.billboard{
+	.billboard {
 		color: black;
 		font-size: 50%;
 	}
 
-	.box-port img{
+	.box-port img {
 		display: none;
 	}
 
-	.arrows{
+	.arrows {
 		display: none;
 	}
 
@@ -283,7 +282,7 @@ hr{
 		display: none;
 	}
 
-h1{
+h1 {
 	margin: 0;
 	left: 160px;
 	font-size: 75%;
@@ -300,17 +299,17 @@ h1{
 		font-size: 100%;
 	}
 
-.email{
+.email {
 	text-align: left;
 	position: relative;
 	font-size: 100%;
 }
 
-h2, h3{
+h2, h3 {
 	display: none;
 	}
 
-	.unit{
+	.unit {
 		display: none;
 	}
 }
