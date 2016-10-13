@@ -74,7 +74,7 @@ nav a{
 }
 
 
-h2{
+h2, h3{
 	text-align:center;
 	color: black;
 	font-family: 'Raleway', sans-serif;
@@ -83,16 +83,6 @@ h2{
 	margin-top: 0em;
 	margin-bottom: 1em;
 }
-
-h3{
-	position: absolute;
-	bottom:2em;
-	color: white;
-	text-align:center;
-	width: 100%;
-	padding-bottom: 4em;
-	text-shadow: 2px 2px 6px black;
-	}
 
 hr{
 	color: gray;
