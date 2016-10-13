@@ -124,8 +124,9 @@ hr{
 	color: black;
 }
 
-.email-2:hover{
+.email-2 a:hover{
 	color: black;
+	text-decoration: underline;
 
 }
 
