@@ -119,7 +119,12 @@ hr{
 	color: gray;
 }
 
-.email:hover{
+.email-2 a{
+	text-decoration: none;
+	color: black;
+}
+
+.email-2:hover{
 	color: black;
 
 }
