@@ -20,14 +20,13 @@ html {
 }
 
 h1{
-	color: white;
-	background-color: #ec5a6b;
-	margin-bottom: 0em;
-	margin-top: 0em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	padding-left:0.5em;
+	text-align:center;
+	color: black;
 	font-family: 'Raleway', sans-serif;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 0em;
+	margin-bottom: 1em;
 }
 
 body{
