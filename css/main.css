@@ -247,13 +247,13 @@ hr{
 
 @media print{
 
-	main a::after {
+	main a::after{
 		content: " (" attr(href) ")" ;
 		text-decoration: none;
 		color: gray;
 	}
 
-	.business-card {
+	.business-card{
 		width: 336px;
 		height: 192px;
 		border: .10em dashed #000;
