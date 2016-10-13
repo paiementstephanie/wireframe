@@ -131,7 +131,6 @@ hr{
 
 .prev-next a:hover{
 	text-decoration: underline;
-
 }
 
 .behance{
@@ -254,19 +253,19 @@ hr{
 		color: gray;
 	}
 
-.business-card {
-	width: 336px;
-	height: 192px;
-	border: .10em dashed #000;
-	padding: 1em;
-}
+	.business-card {
+		width: 336px;
+		height: 192px;
+		border: .10em dashed #000;
+		padding: 1em;
+	}
 
-.portrait{
-	max-width: 50%;
-	margin: 0em;
-	position: absolute;
-	bottom: -70px;
-}
+	.portrait{
+		max-width: 50%;
+		margin: 0em;
+		position: absolute;
+		bottom: -70px;
+	}
 
 	.billboard{
 		color: black;
