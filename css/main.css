@@ -136,6 +136,8 @@ hr{
 .intro-p{
 	color: gray;
 	margin-top: 2em;
+	margin-bottom: 0em;
+	padding-bottom: 0em;
 }
 
 
