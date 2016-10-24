@@ -1,0 +1,4 @@
+Sitemap: https://stephaniepaiement.ca/sitemap.xml
+
+User-agent: ☆
+Disallow:

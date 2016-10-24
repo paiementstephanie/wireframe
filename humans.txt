@@ -1,0 +1,19 @@
+
+# TEAM
+
+
+Designer & Developer: Stephanie Paiement <contact@stephaniepaiement.ca>
+Site: https://stephaniepaiement.ca
+Github: https://github.io/paiementstephanie
+Location: Ottawa, Canada.
+
+
+---
+
+
+## Software
+
+-Sublime Text
+-Github
+-Markdown
+
