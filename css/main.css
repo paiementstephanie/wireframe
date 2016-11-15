@@ -133,6 +133,10 @@ hr {
 	background-color: rgba(192,191,202, 0.5);
 }
 
+.grey-bg{
+	background-color: gray;
+}
+
 .unit {
 	margin:0 auto;
 }
