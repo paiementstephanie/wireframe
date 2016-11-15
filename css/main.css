@@ -101,6 +101,10 @@ hr {
 	border: solid 1.5px;
 	}
 
+.name-banner{
+	color: #45505f;
+	text-shadow: none;
+}
 
 .embed {
   margin-left: 0;
