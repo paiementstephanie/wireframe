@@ -21,7 +21,7 @@ html {
 
 h1 {
 	text-align:center;
-	color: black;
+	color: #45505f;
 	font-family: "Raleway", sans-serif;
 	margin-right: 0;
 	margin-left: 0;
@@ -67,6 +67,10 @@ nav a {
 	color: #45505f;
 }
 
+nav a:hover{
+	color: gray;
+}
+
 li {
 	margin: 0;
 }
@@ -96,6 +100,10 @@ hr {
 	color: gray;
 	border: solid 1.5px;
 	}
+
+.hover-box:hover img{
+	background-color: rgba(192,191,202, 0.5);
+}
 
 .unit {
 	margin:0 auto;
