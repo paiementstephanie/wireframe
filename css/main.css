@@ -101,6 +101,10 @@ hr {
 	border: solid 1.5px;
 	}
 
+.boukili{
+	color: black;
+}
+
 .hover-box:hover img{
 	background-color: rgba(192,191,202, 0.5);
 }
