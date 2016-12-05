@@ -201,9 +201,10 @@ hr {
 	color: black;
 }
 
-.404-i{
-	max-width: 400px%;
+.gif-img{
+	width: 400px;
 }
+
 
 @media only screen and (min-width: 40em) {
 
