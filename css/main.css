@@ -52,8 +52,11 @@ body {
 }
 
 .banner {
-  background-color: gray;
   color: #fff;
+}
+
+.banner-content{
+	bottom: 30em;
 }
 
 .wordmark{
