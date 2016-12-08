@@ -48,16 +48,18 @@ body {
 	background-size: cover;
 	background-position: center top;
 	margin-bottom: 2em;
-	text-shadow: 2px 2px 6px black;
 }
 
 .banner {
   color: #fff;
 }
 
+.banner-name{
+	color: white;
+}
+
 .banner-content{
-	bottom: 20em;
-	text-shadow: 2px 2px 6px black;
+	bottom: 25em;
 }
 
 .wordmark{
